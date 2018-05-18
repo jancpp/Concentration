@@ -1,7 +1,6 @@
 //
 //  ViewController.swift
-//  Concentration
-//
+//  Concentration//
 //  Created by Jan Polzer on 5/18/18.
 //  Copyright © 2018 Apps KC. All rights reserved.
 //
@@ -18,10 +17,11 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var flipCountLabel: UILabel!
     @IBOutlet var cardButtons: [UIButton]!
+    let emojiChoices = ["👻", "🎃", "👻", "🎃"]
     
     @IBAction func touchCard(_ sender: UIButton) {
         if let cardNumber = cardButtons.index(of: sender) {
-            print("Card number: \(cardNumber)")
+            flipCard(withEmoji: emojiChoices[cardNumber], on: sender)
         } else {
             print("Chosen card was not found in cardButtons.")
         }
