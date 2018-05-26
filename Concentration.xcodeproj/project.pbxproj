@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3D22B28E20AF724500138F10 /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D22B28D20AF724500138F10 /* Concentration.swift */; };
+		3DD3524120B130B70011A199 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD3524020B130B70011A199 /* Card.swift */; };
 		3DFFCD5820AF32BA00FE9F35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFFCD5720AF32BA00FE9F35 /* AppDelegate.swift */; };
 		3DFFCD5A20AF32BA00FE9F35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFFCD5920AF32BA00FE9F35 /* ViewController.swift */; };
 		3DFFCD5D20AF32BA00FE9F35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DFFCD5B20AF32BA00FE9F35 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		3D22B28D20AF724500138F10 /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
+		3DD3524020B130B70011A199 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		3DFFCD5420AF32BA00FE9F35 /* Concentration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Concentration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DFFCD5720AF32BA00FE9F35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DFFCD5920AF32BA00FE9F35 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				3DFFCD6920AF342400FE9F35 /* Supporting files */,
 				3DFFCD6320AF32BB00FE9F35 /* Info.plist */,
 				3D22B28D20AF724500138F10 /* Concentration.swift */,
+				3DD3524020B130B70011A199 /* Card.swift */,
 			);
 			path = Concentration;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 				3DFFCD5A20AF32BA00FE9F35 /* ViewController.swift in Sources */,
 				3DFFCD5820AF32BA00FE9F35 /* AppDelegate.swift in Sources */,
 				3D22B28E20AF724500138F10 /* Concentration.swift in Sources */,
+				3DD3524120B130B70011A199 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
